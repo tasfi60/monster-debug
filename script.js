@@ -53,9 +53,9 @@ const typeController = (e) => {
   }
 
   // check if given question text is equal to user typed text
-  if (userText) {
+  // if (questionText ===userText) {
     gameOver();
-  }
+  // }
 };
 
 const validate = (key) => {
@@ -71,7 +71,7 @@ const gameOver = () => {
   // the current time is the finish time
   // so total time taken is current time - start time
   const finishTime = new Date().getTime();
-  const timeTaken = (finishTime - startTime) / 1000;
+  const timeTaken = Math.floor((finishTime - startTime) / 1000);
 
   // show result modal
   resultModal.innerHTML = "";
@@ -137,7 +137,7 @@ displayHistory();
 // Show typing time spent
 setInterval(() => {
   const currentTime = new Date().getTime();
-  const timeSpent = (currentTime - startTime) / 1000;
+  const timeSpent = Math.floor((currentTime - startTime) / 1000);
 
 
   document.getElementById("show-time").innerHTML = `${startTime ? timeSpent : 0} seconds`;
