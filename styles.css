@@ -11,10 +11,21 @@ body {
   font-family: "Zilla Slab", serif;
 }
 
+#nav{
+  margin-left: 1300px;
+  margin-top: 10px;
+  width: 120px;
+  height: 40px;
+  background-color: rgb(195, 250, 233);
+  color: black;
+  
+}
+
 .box-container {
   width: 70%;
   margin: 0 auto;
 }
+
 
 #question {
   height: 100px;
