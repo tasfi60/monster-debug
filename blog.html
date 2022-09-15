@@ -117,11 +117,9 @@
                             <div class="accordion-body">
                                 <h6 class="text-muted">
                                     <ul>
-                                        <li>JavaScript has a runtime model based on an event loop, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks. This model is quite different from models in other languages like C and Java. <br><br>
-                                        </li>
                                         <li>Before we discuss the event loop, lets first go through the function of the task queue.
 
-                                            nce the Web API finishes executing the task, it doesn’t just push it back to the Call Stack automatically. It goes to the Task Queue. 
+                                            Once the Web API finishes executing the task, it doesn’t just push it back to the Call Stack automatically. It goes to the Task Queue. 
                                             
                                             A queue is a data structure that works on the First in First out principle, so as tasks get pushed into the queue, they get out in that same order. Tasks that have been executed by the Web API’s, which are being pushed to the Task Queue, then go back to the Call Stack to get their result printed out. <br><br>
                     
@@ -150,7 +148,7 @@
                             aria-labelledby="panelsStayOpen-headingFour">
                             <div class="accordion-body">
                                 <h6 class="text-muted">
-                                    <ul>
+                                    <ol>
                                         We can get undefined in the following ways :<br><br>
                                         <li>Variable that is not initialized will give undefined.<br>
                                         </li>
@@ -168,7 +166,7 @@
                                         </li>
                                         <li>Set a value directly to undefined.<br>
                                         </li>
-                                    </ul>
+                                    </ol>
 
                                 </h6>
                             </div>
