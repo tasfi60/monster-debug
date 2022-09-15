@@ -194,7 +194,7 @@ button {
   top: 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 700px) {
   
   .box-container {
     padding: 0 20px;
@@ -206,5 +206,9 @@ button {
   #histories {
     grid-template-columns: auto;
 
+  }
+
+  #nav{
+    margin-left: 230px;
   }
 }

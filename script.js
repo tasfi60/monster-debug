@@ -53,9 +53,9 @@ const typeController = (e) => {
   }
 
   // check if given question text is equal to user typed text
-  // if (questionText ===userText) {
+  if (questionText === userText) {
     gameOver();
-  // }
+  }
 };
 
 const validate = (key) => {
